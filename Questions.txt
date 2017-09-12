@@ -1,0 +1,71 @@
+﻿
+
+COMMENTS
+
+Practicing in was easy, because you explained the structure of Xamarin, we just did what you already did, 
+without your help the truth would have been a little understood in learning this.
+
+
+__________________________________________________________________________________________________________________________________________
+QUESTIONS
+
+Question 1: What’s difference between Portable (CPL) and Shared (SAP) projects? 
+
+Answer: Shared Project (SAP) uses a shared code model where you can use conditional compilation inside of the 
+code file to do platform specific features.
+
+Portable class library (CPL) does everything in a portable class library and you would use dependency injection to do platform specific stuff.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 2: What are the requirements to configure Xamarin Mac Agent? 
+
+
+Answer: System Requirements
+
+The system requirements are:
+
+*Windows
+Windows 7 or higher.
+Visual Studio 2013 Professional or higher.
+Xamarin for Visual Studio.
+
+⚠️
+NOTE: The Xamarin plug-in cannot be used with Express editions of Visual Studio due to lack of support for extensions.
+
+*Macintosh
+A Mac running OS X El Capitan (10.11) or higher (although the latest stable version is recommended).
+Xamarin Studio 5.10 or higher (although the latest stable version is recommended)). This should be on the same 
+distribution channel as Xamarin for Visual Studio.
+Xamarin.iOS SDK.
+Apple’s Xcode(7+) IDE and iOS SDK (although the latest stable version from the App Store is recommended)).
+
+⚠️
+NOTE: The Windows computer must be able to reach the Mac via the network.
+
+*Compatibility
+To ensure that matching Xamarin.iOS versions are installed on your Mac and Windows machines, you must be on the Stable release channel of 
+Xamarin Studio.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Question 3: How many projects you have and why you need all? 
+
+Answer: 
+
+Tiene cuatro proyectos en total que son 
+Portable
+iOS
+Android
+UWP
+
+When you create an Application Project or a Library Project, 
+the resulting DLL is restricted to working on the specific platform it is created for. This prevents you from writing an 
+assembly for a Windows app, and then re-using it on Xamarin.iOS and Xamarin.Android.
+
+The iOS, Android and UWP projects are the native languages of each respectively.
+
+
+
+

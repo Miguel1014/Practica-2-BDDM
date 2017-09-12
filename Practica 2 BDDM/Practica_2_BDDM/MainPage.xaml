@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Practica_2_BDDM"
              x:Class="Practica_2_BDDM.MainPage">
 
-    <Label Text="Luis Miguel Salvador Dominguez  &#10; Tecnologico de Estudios Superiores de Huixquilucan &#10; BD Dispositivos Moviles"
+    <Label Text="Luis Miguel Salvador Dominguez  &#10; 13090414"
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
